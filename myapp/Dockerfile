@@ -32,7 +32,7 @@ COPY .Renviron .Renviron
 RUN R -e "renv::restore()"
 
 # Expose the Shiny application port
-EXPOSE 8180
+EXPOSE 7860
 
 # Run the R Shiny app
 CMD ["R", "-e", "shiny::runApp('/home/shiny-app')"]

@@ -13,7 +13,7 @@ library(fpc)
 
 # Specify the application port
 options(shiny.host = "0.0.0.0")
-options(shiny.port = 8180)
+options(shiny.port = 7860)
 
 readRenviron(".Renviron")
 
